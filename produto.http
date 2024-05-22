@@ -1,9 +1,9 @@
 ### busca todos
-GET http://localhost:8042/usuario
+GET http://localhost:8080/produto
 
 
 ### adiciona
-POST http://localhost:8042/usuario/criar
+POST http://localhost:8080/produto/criar
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 ###
 
 ### atualiza um
-PUT http://localhost:8042/usuario/atualizar
+PUT http://localhost:8080/produto/atualizar
 Content-Type: application/json
 
 {
@@ -24,11 +24,11 @@ Content-Type: application/json
 ###
 
 ### remove um
-DELETE http://localhost:8042/usuario
+DELETE http://localhost:8080/produto
 Content-Type: application/json
 
 {
-  "id": 3
+  "id": 1
 }
 
 ###
